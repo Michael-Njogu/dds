@@ -3,7 +3,10 @@
 if( ! function_exists('dds_setup') ) {
 
     function dds_setup() {
-        
+
+        // External files
+        require 'includes/enqueue.php';
+
     }
 
 }
