@@ -14,7 +14,7 @@ This is a custom WordPress theme for DDS.
 (Coming Soon)
 
 ### Usage
-<p>Download &amp; install WordPress. Download the contents of this repository as a zip file. Log in to your WordPress dashboard and go to Appearance > Themes. Upload and install the DDS zip file. Activate the theme &amp; enjoy!</p>
+<p>Download &amp; install WordPress. Download the contents of this repository as a zip file. Log in to your WordPress dashboard and go to Appearance > Themes. Upload and install the <strong>dds-master</strong> zip file. Activate the theme &amp; enjoy!</p>
 
 ### Technologies
 This project has been created with:
