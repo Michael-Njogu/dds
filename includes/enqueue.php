@@ -5,7 +5,7 @@ if( ! function_exists('dds_scripts') ) {
     function dds_scripts() {
 
         // Main stylesheet
-        wp_enqueue_style( 'base', get_theme_file_uri('/styles/css'), null, null, 'all' );
+        wp_enqueue_style( 'base', get_theme_file_uri('/styles/css/base.min.css'), null, null, 'all' );
 
     }
 
