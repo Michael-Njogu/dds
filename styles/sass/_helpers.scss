@@ -7,3 +7,13 @@ $body-font: 'Neris', sans-serif;
 // Colours
 $cyan-blue: #638D9A;
 $dark-blue: #021441;
+
+// Mixins
+@mixin convert-to-rem( $pixels, $weight:null ) {
+    font: {
+        size: $pixels + px;
+        size: ($pixels / 16) + rem;
+        weight: $weight;
+    }
+    line-height: ($pixels  + 10) + px;;
+}
