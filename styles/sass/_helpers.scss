@@ -5,10 +5,19 @@ $title-font: 'Bender', sans-serif;
 $body-font: 'Neris', sans-serif;
 
 // Colours
+$font-colour: #212427;
 $cyan-blue: #638D9A;
 $dark-blue: #021441;
 
 // Mixins
+@mixin font-face( $family, $url, $weight ) {
+    @font-face {
+        font-family: $family;
+        src: url($url);
+        font-weight: $weight;
+    }
+}
+
 @mixin convert-to-rem( $pixels, $weight:null ) {
     font: {
         size: $pixels + px;
